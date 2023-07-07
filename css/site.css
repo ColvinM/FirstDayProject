@@ -23,3 +23,20 @@ h1 {
     -webkit-text-stroke-color: yellow;
     text-shadow: 2px 1px #292929;
 }
+.special-link:hover {
+    color:blueviolet;
+}
+
+.background-layout {
+    background-color: black;
+    color: #caf;
+}
+
+.scarletWitch {
+    text-align: center;
+    color: darkviolet;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:tomato;
+}

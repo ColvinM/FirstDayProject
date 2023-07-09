@@ -10,6 +10,9 @@ h1 {
 .logoImage {
     max-width: 300px;
 }
+.minHeight {
+    min-height: 85vh;
+}
 .heroImage {
     max-width: 200px;
 }
@@ -39,4 +42,12 @@ h1 {
     text-transform: uppercase;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color:tomato;
+}
+.theWasp {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #292929;
+    text-shadow: 4px 1px yellow;
 }

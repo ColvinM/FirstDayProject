@@ -43,128 +43,133 @@
         </nav>
     </header>
     <main class="container text-center">
-        <h2>Superhero Application</h2>
+        <h2 class="p-2">Superhero Application</h2>
         <div class="minHeight">
             <div class="row">
-                <div class="col-1 bg-secondary">
-                    Safe Lives Today!
+                <div class="col-2 bg-secondary">
+                    Save Lives Today!
                 </div>
-                <div class="col-10 text-start">
-                    <form action="#" class="row gy-2">
-                        <div class="col-12">
-                            <label for="superheroName" class="form-label">Superhero Name</label>
-                            <input name="superheroName" type="text" id="superheroName" class="form-control" />
-                        </div>
-                        <div class="col-12">
-                            <label for="alterEgoName" class="form-label">Alter Ego</label>
-                            <input name="alterEgoName" type="text" id="alterEgoName" class="form-control" />
-                        </div>
-                        <div class="col-12">
-                            <label for="planetName" class="form-label">Planet of Origin</label>
-                            <input name="planetName" type="text" id="planetName" class="form-control" />
-                        </div>
-                        <div class="col-12">
-                            <label for="country" class="form-label">Country</label>
-                            <input name="country" type="text" id="country" class="form-control" />
-                        </div>
-                        <div class="col-12">
-                            <label for="address" class="form-label">Address</label>
-                            <input name="address" type="text" id="address" class="form-control" />
-                        </div>
-                        <div class="col-12">
-                            <label for="address2" class="form-label">Address 2</label>
-                            <input name="address2" type="text" id="address2" class="form-control" />
-                        </div>
-                        <div class="col-4">
-                            <label for="city" class="form-label">City</label>
-                            <input name="city" type="text" id="city" class="form-control" />
-                        </div>
-                        <div class="col-4">
-                            <label for="state" class="form-label">State</label>
-                            <input name="state" type="text" id="state" class="form-control" />
-                        </div>
-                        <div class="col-4">
-                            <label for="zip" class="form-label">Zip</label>
-                            <input name="zip" type="text" id="zip" class="form-control" />
-                        </div>
-                        <div class="col-12">
-                            <label for="phone" class="form-label">Contact Info</label>
-                            <input name="phone" type="text" id="phone" class="form-control" />
-                        </div>
-                        <div class="col-12 col-md-8">
-                            <label for="riskLife" class="form-label">Willing to sacrifice my life if necessary for the greater good?</label>
-                            <select name="riskLife" id="riskLife" class="form-select">
-                                <option selected>Choose...</option>
-                                <option value="YES">Yes</option>
-                                <option value="NO">No</option>  
-                            </select>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <label for="startDate" class="form-label">Start Date</label>
-                            <input name="startDate" type="text" id="startDate" class="form-control" />
-                        </div>
-                        <div class="col-3"><label>Preferred Hours:</label></div>
-                        <div class="col-3">
-                            <div class="form-check">
-                                <input type="checkbox" name="fullTime" id="fullTime" class="form-check-input" />
-                                <label class="form-check-label" for="fullTime">
-                                    Full-Time
-                                </label>
+                <div class="col-8 text-start">
+                    <form action="#" class="p-2">
+                        <div class="row border border-2 pb-3 gy-2">
+                            <div class="col-12">
+                                <label for="superheroName" class="form-label">Superhero Name</label>
+                                <input name="superheroName" type="text" id="superheroName" class="form-control" />
+                            </div>
+                            <div class="col-12">
+                                <label for="alterEgoName" class="form-label">Alter Ego</label>
+                                <input name="alterEgoName" type="text" id="alterEgoName" class="form-control" />
+                            </div>
+                            <div class="col-12">
+                                <label for="planetName" class="form-label">Planet of Origin</label>
+                                <input name="planetName" type="text" id="planetName" class="form-control" />
+                            </div>
+                            <div class="col-12">
+                                <label for="country" class="form-label">Country</label>
+                                <input name="country" type="text" id="country" class="form-control" />
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="address" class="form-label">Address</label>
+                                <input name="address" type="text" id="address" class="form-control" />
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="address2" class="form-label">Address 2</label>
+                                <input name="address2" type="text" id="address2" class="form-control" />
+                            </div>
+                            <div class="col-4">
+                                <label for="city" class="form-label">City</label>
+                                <input name="city" type="text" id="city" class="form-control" />
+                            </div>
+                            <div class="col-4">
+                                <label for="state" class="form-label">State</label>
+                                <input name="state" type="text" id="state" class="form-control" />
+                            </div>
+                            <div class="col-4">
+                                <label for="zip" class="form-label">Zip</label>
+                                <input name="zip" type="text" id="zip" class="form-control" />
+                            </div>
+                            <div class="col-12">
+                                <label for="phone" class="form-label">Contact Info</label>
+                                <input name="phone" type="text" id="phone" class="form-control" />
                             </div>
                         </div>
-                        <div class="col-3">
-                            <div class="form-check">
-                                <input type="checkbox" name="partTime" id="partTime" class="form-check-input" />
-                                <label class="form-check-label" for="partTime">
-                                    Part-Time
-                                </label>
+                        <div class="row border border-2 pb-3 mt-3 gy-2">
+                            <div class="col-12 col-md-8">
+                                <label for="riskLife" class="form-label">Willing to sacrifice my life if necessary for
+                                    the greater good?</label>
+                                <select name="riskLife" id="riskLife" class="form-select">
+                                    <option selected>Choose...</option>
+                                    <option value="YES">Yes</option>
+                                    <option value="NO">No</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <label for="startDate" class="form-label">Start Date</label>
+                                <input name="startDate" type="text" id="startDate" class="form-control" />
+                            </div>
+                            <div class="col-12 col-md-3"><label>Preferred Hours:</label></div>
+                            <div class="col-12 col-md-3">
+                                <div class="form-check">
+                                    <input type="checkbox" name="fullTime" id="fullTime" class="form-check-input" />
+                                    <label class="form-check-label" for="fullTime">
+                                        Full-Time
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <div class="form-check">
+                                    <input type="checkbox" name="partTime" id="partTime" class="form-check-input" />
+                                    <label class="form-check-label" for="partTime">
+                                        Part-Time
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <div class="form-check">
+                                    <input type="checkbox" name="freeLance" id="freeLance" class="form-check-input" />
+                                    <label class="form-check-label" for="freeLance">
+                                        Free Lance
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label for="superPowers" class="form-label">Super Powers</label>
+                                <input name="superPowers" type="text" id="superPowers" class="form-control" />
+                            </div>
+                            <div class="col-12">
+                                <label for="sidekicks" class="form-label">Sidekicks</label>
+                                <input name="sidekicks" type="text" id="sidekicks" class="form-control" />
+                            </div>
+                            <div class="col-12">
+                                <label for="weakness" class="form-label">Weaknesses</label>
+                                <input name="weakness" type="text" id="weakness" class="form-control" />
+                            </div>
+                            <div class="col-12">
+                                <label for="languages" class="form-label">Languages</label>
+                                <input name="languages" type="text" id="languages" class="form-control" />
+                            </div>
+                            <div class="col-12">
+                                <label for="armorColor" class="form-label">Armor Color</label>
+                                <input name="armorColor" type="text" id="armorColor" class="form-control" />
+                            </div>
+                            <div class="col-12">
+                                <label for="nemesis" class="form-label">Nemesis</label>
+                                <input name="nemesis" type="text" id="nemesis" class="form-control" />
+                            </div>
+                            <div class="col-12">
+                                <label for="experience" class="form-label">Experience</label>
+                                <input name="experience" type="text" id="experience" class="form-control" />
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="form-check">
-                                <input type="checkbox" name="freeLance" id="freeLance" class="form-check-input" />
-                                <label class="form-check-label" for="freeLance">
-                                    Free Lance
-                                </label>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <label for="superPowers" class="form-label">Super Powers</label>
-                            <input name="superPowers" type="text" id="superPowers" class="form-control" />
-                        </div>
-                        <div class="col-12">
-                            <label for="sidekicks" class="form-label">Sidekicks</label>
-                            <input name="sidekicks" type="text" id="sidekicks" class="form-control" />
-                        </div>
-                        <div class="col-12">
-                            <label for="weakness" class="form-label">Weaknesses</label>
-                            <input name="weakness" type="text" id="weakness" class="form-control" />
-                        </div>
-                        <div class="col-12">
-                            <label for="languages" class="form-label">Languages</label>
-                            <input name="languages" type="text" id="languages" class="form-control" />
-                        </div>
-                        <div class="col-12">
-                            <label for="armorColor" class="form-label">Armor Color</label>
-                            <input name="armorColor" type="text" id="armorColor" class="form-control" />
-                        </div>
-                        <div class="col-12">
-                            <label for="nemesis" class="form-label">Nemesis</label>
-                            <input name="nemesis" type="text" id="nemesis" class="form-control" />
-                        </div>
-                        <div class="col-12">
-                            <label for="experience" class="form-label">Experience</label>
-                            <input name="experience" type="text" id="experience" class="form-control" />
-                        </div>
-                        <div class="col-12 text-end">
-                            <button class="btn btn-primary btn-lg mb-2" type="submit">
+                        <div class="col-12 text-center">
+                            <button class="btn btn-primary btn-lg my-2" type="submit">
                                 Submit
                             </button>
                         </div>
                     </form>
                 </div>
-                <div class="col-1 bg-primary">
-                    Hero Needed!
+                <div class="col-2 bg-primary">
+                    Hero Needed
                 </div>
             </div>
         </div>

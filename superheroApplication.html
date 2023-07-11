@@ -45,61 +45,70 @@
     <main class="container text-center">
         <h2 class="p-2">Superhero Application</h2>
         <div class="minHeight">
-            <div class="row">
+            <div class="row p-2">
                 <div class="col-2 bg-secondary">
                     Save Lives Today!
                 </div>
                 <div class="col-8 text-start">
                     <form action="#" class="p-2">
-                        <div class="row border border-2 pb-3 gy-2">
+                        <div class="row border border-2 pb-2 gy-2">
                             <div class="col-12">
                                 <label for="superheroName" class="form-label">Superhero Name</label>
-                                <input name="superheroName" type="text" id="superheroName" class="form-control" />
+                                <input name="superheroName" type="text" id="superheroName" class="form-control" 
+                                aria-label="Superhero Name" required />
                             </div>
                             <div class="col-12">
                                 <label for="alterEgoName" class="form-label">Alter Ego</label>
-                                <input name="alterEgoName" type="text" id="alterEgoName" class="form-control" />
+                                <input name="alterEgoName" type="text" id="alterEgoName" class="form-control" 
+                                aria-label="Alter Ego" required />
                             </div>
                             <div class="col-12">
                                 <label for="planetName" class="form-label">Planet of Origin</label>
-                                <input name="planetName" type="text" id="planetName" class="form-control" />
+                                <input name="planetName" type="text" id="planetName" class="form-control" 
+                                aria-label="Planet Name" required />
                             </div>
                             <div class="col-12">
                                 <label for="country" class="form-label">Country</label>
-                                <input name="country" type="text" id="country" class="form-control" />
+                                <input name="country" type="text" id="country" class="form-control" 
+                                aria-label="Planet Name" required />
                             </div>
                             <div class="col-12 col-md-6">
                                 <label for="address" class="form-label">Address</label>
-                                <input name="address" type="text" id="address" class="form-control" 
-                                placeholder="1234 Main St"/>
+                                <input name="address" type="text" id="address" class="form-control"
+                                    placeholder="1234 Main St" aria-label="Address" required />
                             </div>
                             <div class="col-12 col-md-6">
                                 <label for="address2" class="form-label">Address 2</label>
-                                <input name="address2" type="text" id="address2" class="form-control" 
-                                placeholder="Apartment, studio, or floor"/>
+                                <input name="address2" type="text" id="address2" class="form-control"
+                                    placeholder="Apartment, studio, or floor" aria-label="Address2" required />
                             </div>
                             <div class="col-4">
                                 <label for="city" class="form-label">City</label>
-                                <input name="city" type="text" id="city" class="form-control" />
+                                <input name="city" type="text" id="city" class="form-control" 
+                                aria-label="City" required />
                             </div>
                             <div class="col-4">
                                 <label for="state" class="form-label">State</label>
-                                <input name="state" type="text" id="state" class="form-control" />
+                                <input name="state" type="text" id="state" class="form-control" 
+                                aria-label="State" required />
                             </div>
                             <div class="col-4">
                                 <label for="zip" class="form-label">Zip</label>
-                                <input name="zip" type="text" id="zip" class="form-control" />
+                                <input name="zip" type="text" id="zip" class="form-control" 
+                                aria-label="Zip" required />
                             </div>
                             <div class="col-12">
                                 <label for="phone" class="form-label">Contact Info</label>
-                                <input name="phone" type="text" id="phone" class="form-control" />
+                                <input name="phone" type="tel" id="phone" class="form-control"
+                                aria-label="Phone" required />
                             </div>
                         </div>
                         <div class="row border border-2 pb-3 mt-3 gy-2">
                             <div class="col-12 col-md-8">
                                 <label for="riskLife" class="form-label">Willing to sacrifice my life if necessary for
                                     the greater good?</label>
-                                <select name="riskLife" id="riskLife" class="form-select">
+                                <select name="riskLife" id="riskLife" class="form-select" 
+                                    aria-label="Risking Life" required>
                                     <option selected>Choose...</option>
                                     <option value="YES">Yes</option>
                                     <option value="NO">No</option>
@@ -107,12 +116,14 @@
                             </div>
                             <div class="col-12 col-md-4">
                                 <label for="startDate" class="form-label">Start Date</label>
-                                <input name="startDate" type="text" id="startDate" class="form-control" />
+                                <input name="startDate" type="text" id="startDate" class="form-control" 
+                                aria-label="Start Date" required />
                             </div>
                             <div class="col-12 col-md-3"><label>Preferred Hours:</label></div>
                             <div class="col-12 col-md-3">
                                 <div class="form-check">
-                                    <input type="checkbox" name="fullTime" id="fullTime" class="form-check-input" />
+                                    <input type="checkbox" name="fullTime" id="fullTime" class="form-check-input" 
+                                        aria-label="Family" required />
                                     <label class="form-check-label" for="fullTime">
                                         Full-Time
                                     </label>
@@ -156,15 +167,17 @@
                             </div>
                             <div class="col-12">
                                 <label for="nemesis" class="form-label">Nemesis</label>
-                                <input name="nemesis" type="text" id="nemesis" class="form-control" />
+                                <input name="nemesis" type="text" id="nemesis" class="form-control" aria-label="Nemesis"
+                                    required />
                             </div>
                             <div class="col-12">
                                 <label for="experience" class="form-label">Experience</label>
-                                <input name="experience" type="text" id="experience" class="form-control" />
+                                <textarea name="experience" type="text" id="experience" class="form-control"
+                                     aria-label="Subject" required>With powers, situations fight bad guys and etc.</textarea>
                             </div>
                         </div>
                         <div class="col-12 text-center">
-                            <button class="btn btn-primary btn-lg my-2" type="submit">
+                            <button class="btn btn-success btn-lg my-2" type="submit">
                                 Submit
                             </button>
                         </div>
